@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+/*======================= modriana table ===================================*/
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+
+}
+.table-modrian {
+    width: 740px;
+    height: 630px;
+    margin: 20px auto 0;
+    border-style: hidden;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px black;
+
+}
+.row-1 > td {
+    background: #3f6324;
+}
+
+.row-1 > td:nth-child(1) {
+    background:grey;
+}
+.row-1 > td:nth-child(5) {
+background: #12ff00;
+}
+.row-2 > td {
+    background:#ffdc00;
+}
+.row-2 > td:nth-child(1){
+    background: #0f3a04;
+}
+.row-2 > td:nth-child(2){
+    background: #3f6324;
+}
+.row-3 > td {
+    background: #3f6324;
+}
+.row-4 > td {
+    background: #003aff;
+}
+.row-4 > td:nth-child(2){
+    background: #3f6324;
+}
+.row-4 > td:nth-child(3){
+    background: #3f6324;
+}
+.row-4 > td:nth-child(4){
+    background: #0f3a04;
+}
+.row-5 td {
+    background: grey;
+}
+
